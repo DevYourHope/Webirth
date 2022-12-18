@@ -1,0 +1,37 @@
+.video{
+  width: 350px;
+  padding-top: 30px;
+}
+
+.videorow{
+  justify-content: center;
+}
+.btnpreve{
+  background: #202020;
+    border-color: #202020;
+    color: #ffffff;
+}
+.btnpreve:hover{
+  background: #000;
+  border-color: #000;
+  color: #008256;
+}
+.divpreve{
+  display: flex;
+  justify-content: center;
+}
+
+.copy{
+  color: white;
+}
+
+.lavori{
+  background: url("../images/banner-lavori.png")  50% 100px no-repeat;
+  background-size: cover;
+  height: 1000px
+}
+@media screen (max-width: 768px) {
+ .lavori{
+   height: 100%;
+ }
+}
